@@ -1,0 +1,32 @@
+# Rust / Cargo
+/target
+**/*.rs.bk
+Cargo.pid
+
+# Soroban / Stellar CLI
+/.soroban
+soroban-spec-rust
+*.wasm.tmp
+
+# Editor / IDE / SO
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Segredos e identidades locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secret*.json
+testnet.json
+
+# Cobertura e profiling de testes
+tarpaulin-reports/
+cobertura.xml
+*.profraw
+*.profdata

@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "ecoa_token",
+    "incentive_pool",
+    "oracle",
+]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+opt-level = "z"
+lto = true
+codegen-units = 1
